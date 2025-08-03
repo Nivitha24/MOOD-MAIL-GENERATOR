@@ -1,33 +1,57 @@
-# 💌 MoodMail Generator
+# 📬 MoodMail – Emotion-Based Email Generator
 
-MoodMail Generator is a simple, clean, and interactive email template generator based on user mood. Built with **React**, **TypeScript**, and **Tailwind CSS**, it helps users express how they feel in an email-friendly format.
 
----
 
-## 🚀 Demo
-
-> _Coming soon_ – deploy it with [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/) for a live preview!
+MoodMail is a fun and functional React app that generates email content based on your current mood. Simply type how you're feeling — like *“happy”*, *“nervous”*, or *“sad”* — and the app creates a matching subject line and emoji-styled footer.
 
 ---
 
+## ✨ Features
+
+- 🔤 Mood-Based Input Logic
+- 📝 Auto-generated Email Subject Line
+- 💌 Emoji Footer Signature
+- 🎨 Clean & Responsive UI using TailwindCSS + ShadCN
+- 🔄 Conditional Rendering with `if / else if / else`
+- ⚙️ Case-Insensitive Input Matching (`toLowerCase()`, `includes()`)
+- 🧩 Folder-Based Reusable Component Structure
+- 📋 Copy-to-Clipboard Functionality *(coming soon)*
+- ☁️ Firebase Integration *(coming in Day 3)*
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-- ⚛️ React
-- 💨 Tailwind CSS
-- 🟦 TypeScript
-- ⚡ Vite
+- **Frontend:** React + Vite (TypeScript)
+- **Styling:** Tailwind CSS
+- **UI Components:** ShadCN
+- **Backend:** Firebase (planned)
 
 ---
 
-## 🔧 Features
+## 💡 What I Learned
 
-- 💬 Mood-based input
-- 📩 Generate email template (logic can be extended)
-- 🎨 Responsive & minimal UI
-- ♻️ Reusable component structure
+- Using `useState` to manage user input
+- Mapping input mood to meaningful output
+- Conditional rendering for clean UX
+- Utility-first styling with TailwindCSS
+- Writing modular and reusable components
+- Planning for scalability with folder structure
 
+---
 
+## 📸 Screenshot
+<img width="1336" height="873" alt="image" src="https://github.com/user-attachments/assets/ca6b9bad-875c-46e8-9cbb-1bfe3d669afa" />
+<img width="1381" height="826" alt="image" src="https://github.com/user-attachments/assets/155b59cc-0f03-4222-b3c5-23c4fc768cf3" />
 
+*The app generates mood-based subject lines and footers instantly.*
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/moodmail.git
+cd moodmail
+npm install
+npm run dev
